@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
+  <body>
+    <main>
+      <div class="wrapper">
+        <div class="header"></div>
+        <div class="content">
+          <div class="top-container">
+            <h1>Shift the overall look and feel by adding these wonderful 
+              touches to furniture in your home</h1>
+            <p>Ever been in a room and felt like something was missing? Perhaps 
+              it felt slightly bare and uninviting. I’ve got some simple tips 
+              to help you make any room feel complete.</p>  
+          </div>
+          <div class="bottom-container">
+            <div class="left">
+              <img src="./images/avatar-michelle.jpg" alt="Profile photo" class="profile-photo">
+              <div class="info">
+                <h2>Michelle Appleton</h2> 
+                <p>28 Jun 2020</p> 
+              </div>
+            </div>
+            <div class="right">
+              <!-- This is the start of the onClick function -->
+              <button onclick="togglePopup()">
+                <span class="share">
+                  <img src="./images/icon-share.svg" alt="Share button">
+                </span>
+              </button>
+            </div>
+          </div>
+          <!-- The start of the pop-up -->
+          <div class="pop-positioning">
+            <div class="popup" id="popup-icons">
+              <div class="icons">
+                <p>SHARE</p>
+                <a href="http://www.facebook.com/" target="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="http://twitter.com" target="#"><i class="fab fa-twitter"></i></a>
+                <a href="http://www.pinterest.com/" target="#"><i class="fab fa-pinterest"></i></a> 
+              </div>
+              <div class="shape"></div>
+            </div>
+          </div>
+          <!-- The end of the pop-up -->
+        </div>
+      </div>
+    </main> 
+  <script src="./script.js"></script>  
+  </body>
+</html>
