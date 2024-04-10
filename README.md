@@ -8,4 +8,4 @@ Well I used flex for mobile version, grid for desktop version and some js for th
 This is the preview I made:
 ![](FinishedPreview.png)
 
-Live: https://zer0fr0st93.github.io/Article-Preview/
+Live: https://billgeorgop93.github.io/Article-Preview/
